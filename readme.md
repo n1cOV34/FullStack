@@ -79,7 +79,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Nicolas Velasquez M** - *Trabajo Inicial* - [n1cOV34](https://github.com/villanuevand)
+* **Nicolas Velasquez M** - *Trabajo Inicial* - [n1cOV34](https://github.com/n1cOV34)
 * **Fabio Romero** - *Ingeniero Capacitación* - [fasromero](#fasromero)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 

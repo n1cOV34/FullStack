@@ -1,6 +1,6 @@
-# Título del Proyecto
+# Desarrollo full stack y tecnologías híbridas
 
-_Acá va un párrafo que describa lo que es el proyecto_
+Proyecto generación de capacidades en el ecosistema digital de bogotá, mediante formación especializada en ti.
 
 ## Comenzando 🚀
 

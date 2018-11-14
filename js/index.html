@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Test</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+
+<!--<script src="main.js"></script>-->
+
+<style>
+
+#l1{
+
+color: green;
+
+}
+
+#l2{
+
+color: rgb(133, 105, 16);
+
+}
+
+#l3{
+
+color: blue;
+
+}
+
+</style>
+
+<script type="text/javascript">
+
+function sumar (){
+
+let numero1 = prompt('Ingrese el numero 1 a sumar');
+
+let numero2 = prompt('Ingrese el numero 2 a sumar');
+
+let resultado = parseInt(numero1) + parseInt(numero2);
+
+//alert('Resultado : '+ resultado);
+
+document.getElementById("l1").innerHTML = numero1; 
+
+document.getElementById("l2").innerHTML = numero2; 
+
+document.getElementById("l3").innerHTML = resultado; 
+
+}
+
+function mensajes(){
+
+let mensaje = "Bienvenido a nuestro sitio web";
+
+let nombreProducto = 'Producto ABC';
+
+let letraSeleccionada = 'c';
+
+//
+
+let texto1 = "Una frase con 'comillas simples' dentro";
+
+let texto2 = 'Una frase con "comillas dobles" dentro';
+
+//
+
+let texto3 = 'Una frase con \'comillas simples\' dentro';
+
+let texto4 = "Una frase con \"comillas dobles\" dentro";
+
+
+
+//
+
+alert(mensaje);
+
+alert(nombreProducto);
+
+alert(letraSeleccionada);
+
+//
+
+alert(texto1);
+
+alert(texto2);
+
+//
+
+alert(texto3);
+
+alert(texto4);
+
+document.getElementById("mensajes").innerHTML = mensaje +"<br><br>"+
+
+nombreProducto+"<br><br>"+
+
+letraSeleccionada+"<br><br>"+
+
+texto1+"<br><br>"+
+
+texto2+"<br><br>"+
+
+texto3+"<br><br>"+
+
+texto4+"<br><br>"; 
+
+
+
+
+}
+
+function arreglos(){
+
+let dato = '';
+
+var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+for (i in dias) {
+
+dato = dato + dias[i] + ' | ';
+
+}
+
+document.getElementById("verarreglo").innerHTML = dato;
+
+//
+
+let diaSeleccionado = dias[0]; // diaSeleccionado = "Lunes"
+
+let otroDia = dias[5]; 
+
+document.getElementById("diaselec").innerHTML = diaSeleccionado; 
+
+document.getElementById("otroDia").innerHTML = otroDia; 
+
+}
+
+
+
+function booleanos(){
+
+let clienteRegistrado = false;
+
+let ivaIncluido = true;
+
+//
+
+document.getElementById("verbool1").innerHTML = clienteRegistrado;
+
+document.getElementById("verbool2").innerHTML = ivaIncluido;
+
+
+}
+
+function operacionesaritmeticas(){
+
+var numero1 = 10;
+
+var numero2 = 5;
+
+
+resultado = numero1 / numero2; // resultado = 2
+
+alert(resultado);
+
+resultado = 3 + numero1; // resultado = 13
+
+alert(resultado);
+
+resultado = numero2 - 4; // resultado = 1
+
+alert(resultado);
+
+resultado = numero1 * numero2; // resultado = 50
+
+alert(resultado);
+
+
+
+//
+
+/* 
+
+var numero1 = 10;
+
+var numero2 = 5;
+
+resultado = numero1 % numero2; // resultado = 0
+
+alert(resultado);
+
+
+
+//
+
+numero1 = 9;
+
+numero2 = 5;
+
+resultado = numero1 % numero2; // resultado = 4
+
+alert(resultado);
+
+
+
+//
+
+var numero1 = 5;
+
+numero1 += 3; // numero1 = numero1 + 3 = 8
+
+alert(numero1)
+
+numero1 -= 1; // numero1 = numero1 - 1 = 4
+
+alert(numero1)
+
+numero1 *= 2; // numero1 = numero1 * 2 = 10
+
+alert(numero1)
+
+numero1 /= 5; // numero1 = numero1 / 5 = 1
+
+alert(numero1)
+
+numero1 %= 4; // numero1 = numero1 % 4 = 1
+
+*/
+
+
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<p>Javascript</p>
+
+<hr>
+
+<p>Suma</p>
+
+<ul>
+
+<li>Numero 1 : <label id="l1"></label></li>
+
+<li>Numero 2 : <label id="l2"></label></li>
+
+<li>Resutado : <label id="l3"></label></li>
+
+<input type="button" name="btnSuma" id="btnSuma" value="Sumar" onclick="sumar()">
+
+</ul>
+
+<hr>
+
+<p>Mensajes</p>
+
+<input type="button" name="btnMen" id="btnMen" value="mensajes" onclick="mensajes()">
+
+<p id="mensajes"></p>
+
+<hr>
+
+<p>Arreglos</p>
+
+Ejemplo<br>
+
+var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];
+
+<br>
+
+<input type="button" name="btnArreglo" id="btnArreglo" value="Arreglo" onclick="arreglos()">
+
+<br>
+
+<label id="verarreglo"></label>
+
+<br>
+
+<p>Ejercicio Clase<br>
+
+var diaSeleccionado = dias[0]; --> <label id="diaselec"></label>
+
+<br>
+
+var otroDia = dias[5]; --><label id="otroDia"></label>
+
+</p>
+
+<hr>
+
+<p>Boolean</p>
+
+<br>
+
+<input type="button" name="btnBool" id="btnBool" value="Booleanos" onclick="booleanos()">
+
+<br>
+
+let clienteRegistrado = false;--> <label id="verbool1"></label><br>
+
+let ivaIncluido = true;--> <label id="verbool2"></label>
+
+<hr> 
+
+<p>Incremento y decremento</p>
+
+
+
+<hr> 
+
+<p>Lógicos</p> 
+
+<hr> 
+
+<p>Operaciones aritmeticas</p>
+
+<br>
+
+<input type="button" name="btnOper" id="btnOper" value="Operaciones" onclick="operacionesaritmeticas()">
+
+<br>
+
+<hr>
+
+<p>Relacionales</p>
+
+</body>
+
+</html>

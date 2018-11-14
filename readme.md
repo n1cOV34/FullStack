@@ -79,8 +79,8 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Nicolas Velasquez M** - *Trabajo Inicial* - [n1cOV34](https://github.com/villanuevand)
+* **Fabio Romero** - *Ingeniero Capacitación* - [fasromero](#fasromero)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
@@ -89,3 +89,5 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud 🎁
+
+Gracias a https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a por la plantilla publicada y de gran ayuda para este proyecto. Todavia esta en 🛠️

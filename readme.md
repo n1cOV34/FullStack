@@ -90,4 +90,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ## Expresiones de Gratitud 🎁
 
-Gracias a https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a por la plantilla publicada y de gran ayuda para este proyecto. Todavia esta en 🛠️
+Gracias a https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a por la plantilla publicada y de gran ayuda para este proyecto. 
+
+Todavia esta en 🛠️
